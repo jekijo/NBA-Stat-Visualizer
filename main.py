@@ -58,7 +58,7 @@ def get_player_info(player_name):
 
 def main():
     print('Welcome to an NBA stat comparison program. You will enter two NBA players to compare and be shown'
-          'their current season and carrer averages in 12 different categories!\n')
+          'their current season and career averages in 12 different categories!\n')
     play1 = input('Enter a currently active NBA player: ')
     play2 = input('Enter another currently active NBA player: ')
     player1 = get_player_info(play1)
